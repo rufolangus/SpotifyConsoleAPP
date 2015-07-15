@@ -1,0 +1,8 @@
+C:\Users\SRG\Desktop\SpotifyConsoleApp\bin\Debug\SpotifyConsoleApp.exe.config
+C:\Users\SRG\Desktop\SpotifyConsoleApp\bin\Debug\SpotifyConsoleApp.exe
+C:\Users\SRG\Desktop\SpotifyConsoleApp\bin\Debug\SpotifyConsoleApp.pdb
+C:\Users\SRG\Desktop\SpotifyConsoleApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SRG\Desktop\SpotifyConsoleApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SRG\Desktop\SpotifyConsoleApp\obj\Debug\SpotifyConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\SRG\Desktop\SpotifyConsoleApp\obj\Debug\SpotifyConsoleApp.exe
+C:\Users\SRG\Desktop\SpotifyConsoleApp\obj\Debug\SpotifyConsoleApp.pdb
