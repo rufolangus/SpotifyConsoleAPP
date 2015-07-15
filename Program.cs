@@ -1,3 +1,9 @@
+/*Spotify Console Controller
+ * Description:
+ * Query and play for your favorite artists from the command line.
+ * Author: Rafael A. Valle Gonzalez:. AKA: (Rufolangus/Triton03)
+ * Date: 7/14/2015
+ */
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +14,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using System.Diagnostics;
+
 namespace SpotifyConsoleApp
 {
     class SpotifyConsole
