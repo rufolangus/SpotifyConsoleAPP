@@ -15,6 +15,8 @@ using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using System.Xml.Serialization;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace SpotifyConsoleApp
 {
@@ -23,9 +25,11 @@ namespace SpotifyConsoleApp
 
         public static List<Artist> artists;
         private static History history;
-
+       [DllImport ("User32.dll")]
+static extern int SetForegroundWindow(IntPtr point);
         static void Main(string[] args)
         {
+            CheckIfSpotifyAppRunning();
             ShowGreeting();
             if (args == null || args.Length == 0)
                 AskArtist();
@@ -38,6 +42,19 @@ namespace SpotifyConsoleApp
             }
         }
 
+        public static void CheckIfSpotifyAppRunning() 
+        {
+           Process process =  System.Diagnostics.Process.GetProcessesByName("Spotify").FirstOrDefault();
+           if (process != null) 
+           {
+               IntPtr ptr = process.MainWindowHandle;
+               SetForegroundWindow(ptr);
+               SendKeys.SendWait(" ");
+               
+           }
+
+           
+        }
         public static void ShowGreeting() 
         {
             history = new History();
