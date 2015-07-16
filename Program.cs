@@ -13,6 +13,7 @@ using System.Net;
 using System.IO;
 using System.Runtime.InteropServices;
 using Newtonsoft.Json;
+using System.Xml.Serialization;
 using System.Diagnostics;
 
 namespace SpotifyConsoleApp
@@ -20,6 +21,7 @@ namespace SpotifyConsoleApp
     class SpotifyConsole
     {
         public static List<Artist> artists;
+        private static History history;
         static void Main(string[] args)
         {
             ShowGreeting();
@@ -35,6 +37,7 @@ namespace SpotifyConsoleApp
         }
         public static void ShowGreeting() 
         {
+            history = new History();
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Welcome to Spotify Console Command!");
             Console.ResetColor();
@@ -124,6 +127,7 @@ namespace SpotifyConsoleApp
                 if (number != 0 || number <= artists.Count)
                 {
                     var artist = artists[number - 1];
+                    history.AddArtist(artist);
                     //Get Artist Top Tracks.
                     Console.WriteLine("\nWhat would you like to do?");
                     Console.WriteLine("0. Play Artist");
@@ -208,6 +212,7 @@ namespace SpotifyConsoleApp
             else
                 System.Diagnostics.Process.Start(artist.topSongs[num - 1].url);
         }
+
         public static void GetArtistInfo(Artist artist, dynamic dyn)
         {
             if(artist.albums==null)
@@ -246,6 +251,7 @@ namespace SpotifyConsoleApp
             if (num > 0) 
             {
                 var album = artist.albums[num - 1];
+                    history.AddAlbum(album);
                 string url = "https://api.spotify.com/v1/albums/" + album.id;
                 var dyn = MakeRequest(url);
                 GetAlbumSongs(album,dyn);
@@ -293,13 +299,19 @@ namespace SpotifyConsoleApp
            if (num == 0)
                return;
            else if (num == i)
+           {
                System.Diagnostics.Process.Start(album.url);
+               history.AddAlbum(album);
+           }
            else
-               System.Diagnostics.Process.Start(album.songs[num-1].url);
+           {
+               System.Diagnostics.Process.Start(album.songs[num - 1].url);
+               history.AddSong(album.songs[num - 1]);
+           }
             
         }
     }
-
+    [Serializable]
     public class Artist
     {
         public string name;
@@ -313,6 +325,7 @@ namespace SpotifyConsoleApp
             return "Artist Name: " + name + "\n" + "ID: " + id + "\n" + "URL: " + url + "\n";
         }
     }
+    [Serializable]
     public class Album
     {
         public string id;
@@ -320,6 +333,7 @@ namespace SpotifyConsoleApp
         public string url;
         public  List<Song> songs;
     }
+    [Serializable]
     public class Song
     {
         public string id;

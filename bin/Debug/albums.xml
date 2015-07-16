@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Album>
+    <id>3cQO7jp5S9qLBoIVtbkSM1</id>
+    <title>Blurryface</title>
+    <url>https://open.spotify.com/album/3cQO7jp5S9qLBoIVtbkSM1</url>
+    <songs>
+      <Song>
+        <id>7i9763l5SSfOnqZ35VOcfy</id>
+        <title>Heavydirtysoul</title>
+        <url>https://open.spotify.com/track/7i9763l5SSfOnqZ35VOcfy</url>
+      </Song>
+      <Song>
+        <id>3CRDbSIZ4r5MsZ0YwxuEkn</id>
+        <title>Stressed Out</title>
+        <url>https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn</url>
+      </Song>
+      <Song>
+        <id>2Z8WuEywRWYTKe1NybPQEW</id>
+        <title>Ride</title>
+        <url>https://open.spotify.com/track/2Z8WuEywRWYTKe1NybPQEW</url>
+      </Song>
+      <Song>
+        <id>1s9xuJxhYM0LdVqksjegcg</id>
+        <title>Fairly Local</title>
+        <url>https://open.spotify.com/track/1s9xuJxhYM0LdVqksjegcg</url>
+      </Song>
+      <Song>
+        <id>3bnVBN67NBEzedqQuWrpP4</id>
+        <title>Tear In My Heart</title>
+        <url>https://open.spotify.com/track/3bnVBN67NBEzedqQuWrpP4</url>
+      </Song>
+      <Song>
+        <id>2P61EK6DMGyVyssLWS4fKy</id>
+        <title>Lane Boy</title>
+        <url>https://open.spotify.com/track/2P61EK6DMGyVyssLWS4fKy</url>
+      </Song>
+      <Song>
+        <id>1lguQJjlNrIOoOylYVZN3M</id>
+        <title>The Judge</title>
+        <url>https://open.spotify.com/track/1lguQJjlNrIOoOylYVZN3M</url>
+      </Song>
+      <Song>
+        <id>57yL3161hUMuw06zzzUCHi</id>
+        <title>Doubt</title>
+        <url>https://open.spotify.com/track/57yL3161hUMuw06zzzUCHi</url>
+      </Song>
+      <Song>
+        <id>6GmkJJMe9U1tEcrJ3Hq3A1</id>
+        <title>Polarize</title>
+        <url>https://open.spotify.com/track/6GmkJJMe9U1tEcrJ3Hq3A1</url>
+      </Song>
+      <Song>
+        <id>22OqansuvEMQu9W0EfiGTI</id>
+        <title>We Don't Believe What's On TV</title>
+        <url>https://open.spotify.com/track/22OqansuvEMQu9W0EfiGTI</url>
+      </Song>
+      <Song>
+        <id>4Oyl6oYSNeeZZP0OAxPVaU</id>
+        <title>Message Man</title>
+        <url>https://open.spotify.com/track/4Oyl6oYSNeeZZP0OAxPVaU</url>
+      </Song>
+      <Song>
+        <id>40sRwFjfrRnaTdYPJIg4CP</id>
+        <title>Hometown</title>
+        <url>https://open.spotify.com/track/40sRwFjfrRnaTdYPJIg4CP</url>
+      </Song>
+      <Song>
+        <id>7qxjGHW485TL8ciwkHD5MK</id>
+        <title>Not Today</title>
+        <url>https://open.spotify.com/track/7qxjGHW485TL8ciwkHD5MK</url>
+      </Song>
+      <Song>
+        <id>5P3yUXUC9rZPJPNmYGKEAz</id>
+        <title>Goner</title>
+        <url>https://open.spotify.com/track/5P3yUXUC9rZPJPNmYGKEAz</url>
+      </Song>
+    </songs>
+  </Album>
+</ArrayOfAlbum>

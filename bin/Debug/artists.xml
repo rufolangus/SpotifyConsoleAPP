@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArtist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Artist>
+    <name>Twenty One Pilots</name>
+    <id>3YQKmKGau1PzlVlkL1iodx</id>
+    <url>https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx</url>
+    <albums>
+      <Album>
+        <id>3cQO7jp5S9qLBoIVtbkSM1</id>
+        <title>Blurryface</title>
+        <url>https://open.spotify.com/album/3cQO7jp5S9qLBoIVtbkSM1</url>
+        <songs>
+          <Song>
+            <id>7i9763l5SSfOnqZ35VOcfy</id>
+            <title>Heavydirtysoul</title>
+            <url>https://open.spotify.com/track/7i9763l5SSfOnqZ35VOcfy</url>
+          </Song>
+          <Song>
+            <id>3CRDbSIZ4r5MsZ0YwxuEkn</id>
+            <title>Stressed Out</title>
+            <url>https://open.spotify.com/track/3CRDbSIZ4r5MsZ0YwxuEkn</url>
+          </Song>
+          <Song>
+            <id>2Z8WuEywRWYTKe1NybPQEW</id>
+            <title>Ride</title>
+            <url>https://open.spotify.com/track/2Z8WuEywRWYTKe1NybPQEW</url>
+          </Song>
+          <Song>
+            <id>1s9xuJxhYM0LdVqksjegcg</id>
+            <title>Fairly Local</title>
+            <url>https://open.spotify.com/track/1s9xuJxhYM0LdVqksjegcg</url>
+          </Song>
+          <Song>
+            <id>3bnVBN67NBEzedqQuWrpP4</id>
+            <title>Tear In My Heart</title>
+            <url>https://open.spotify.com/track/3bnVBN67NBEzedqQuWrpP4</url>
+          </Song>
+          <Song>
+            <id>2P61EK6DMGyVyssLWS4fKy</id>
+            <title>Lane Boy</title>
+            <url>https://open.spotify.com/track/2P61EK6DMGyVyssLWS4fKy</url>
+          </Song>
+          <Song>
+            <id>1lguQJjlNrIOoOylYVZN3M</id>
+            <title>The Judge</title>
+            <url>https://open.spotify.com/track/1lguQJjlNrIOoOylYVZN3M</url>
+          </Song>
+          <Song>
+            <id>57yL3161hUMuw06zzzUCHi</id>
+            <title>Doubt</title>
+            <url>https://open.spotify.com/track/57yL3161hUMuw06zzzUCHi</url>
+          </Song>
+          <Song>
+            <id>6GmkJJMe9U1tEcrJ3Hq3A1</id>
+            <title>Polarize</title>
+            <url>https://open.spotify.com/track/6GmkJJMe9U1tEcrJ3Hq3A1</url>
+          </Song>
+          <Song>
+            <id>22OqansuvEMQu9W0EfiGTI</id>
+            <title>We Don't Believe What's On TV</title>
+            <url>https://open.spotify.com/track/22OqansuvEMQu9W0EfiGTI</url>
+          </Song>
+          <Song>
+            <id>4Oyl6oYSNeeZZP0OAxPVaU</id>
+            <title>Message Man</title>
+            <url>https://open.spotify.com/track/4Oyl6oYSNeeZZP0OAxPVaU</url>
+          </Song>
+          <Song>
+            <id>40sRwFjfrRnaTdYPJIg4CP</id>
+            <title>Hometown</title>
+            <url>https://open.spotify.com/track/40sRwFjfrRnaTdYPJIg4CP</url>
+          </Song>
+          <Song>
+            <id>7qxjGHW485TL8ciwkHD5MK</id>
+            <title>Not Today</title>
+            <url>https://open.spotify.com/track/7qxjGHW485TL8ciwkHD5MK</url>
+          </Song>
+          <Song>
+            <id>5P3yUXUC9rZPJPNmYGKEAz</id>
+            <title>Goner</title>
+            <url>https://open.spotify.com/track/5P3yUXUC9rZPJPNmYGKEAz</url>
+          </Song>
+        </songs>
+      </Album>
+      <Album>
+        <id>3kAeFRFteZe70K20xjC6Rm</id>
+        <title>quiet is viølent ep</title>
+        <url>https://open.spotify.com/album/3kAeFRFteZe70K20xjC6Rm</url>
+      </Album>
+      <Album>
+        <id>4RTM2aJ9TN4xhk3Qy1DhTV</id>
+        <title>Spotify Sessions</title>
+        <url>https://open.spotify.com/album/4RTM2aJ9TN4xhk3Qy1DhTV</url>
+      </Album>
+      <Album>
+        <id>14onjcwGXJFQnTmmCnTUfQ</id>
+        <title>Vessel (Bonus Tracks Version)</title>
+        <url>https://open.spotify.com/album/14onjcwGXJFQnTmmCnTUfQ</url>
+      </Album>
+      <Album>
+        <id>2r2r78NE05YjyHyVbVgqFn</id>
+        <title>Vessel</title>
+        <url>https://open.spotify.com/album/2r2r78NE05YjyHyVbVgqFn</url>
+      </Album>
+      <Album>
+        <id>213bMr2NI3VDcBLWpkKFxG</id>
+        <title>Vessel [Commentary Version]</title>
+        <url>https://open.spotify.com/album/213bMr2NI3VDcBLWpkKFxG</url>
+      </Album>
+      <Album>
+        <id>1Fexc96V24RL17Ko9VXUOM</id>
+        <title>Twenty One Pilots</title>
+        <url>https://open.spotify.com/album/1Fexc96V24RL17Ko9VXUOM</url>
+      </Album>
+      <Album>
+        <id>7L5AQ3eJDFyCaUODlzUWFT</id>
+        <title>Ride</title>
+        <url>https://open.spotify.com/album/7L5AQ3eJDFyCaUODlzUWFT</url>
+      </Album>
+      <Album>
+        <id>6uLhtZmD6n1IWHGddvFPea</id>
+        <title>Lane Boy</title>
+        <url>https://open.spotify.com/album/6uLhtZmD6n1IWHGddvFPea</url>
+      </Album>
+      <Album>
+        <id>0UpWCxnFOyZaIadPN8dGC6</id>
+        <title>Stressed Out</title>
+        <url>https://open.spotify.com/album/0UpWCxnFOyZaIadPN8dGC6</url>
+      </Album>
+      <Album>
+        <id>3gtdiyOmi78JgZLHkcl1fd</id>
+        <title>Tear In My Heart</title>
+        <url>https://open.spotify.com/album/3gtdiyOmi78JgZLHkcl1fd</url>
+      </Album>
+      <Album>
+        <id>2uOH7ZapMI7w54BIXLEdfJ</id>
+        <title>Fairly Local</title>
+        <url>https://open.spotify.com/album/2uOH7ZapMI7w54BIXLEdfJ</url>
+      </Album>
+      <Album>
+        <id>0PNfVonzTdd4i5qH06HleQ</id>
+        <title>Holding On To You EP</title>
+        <url>https://open.spotify.com/album/0PNfVonzTdd4i5qH06HleQ</url>
+      </Album>
+      <Album>
+        <id>5V6mSpd03S0oXpgETNNJBU</id>
+        <title>Holding On To You</title>
+        <url>https://open.spotify.com/album/5V6mSpd03S0oXpgETNNJBU</url>
+      </Album>
+      <Album>
+        <id>7MnEKSFLhUPQKACs4MHMsI</id>
+        <title>three songs</title>
+        <url>https://open.spotify.com/album/7MnEKSFLhUPQKACs4MHMsI</url>
+      </Album>
+      <Album>
+        <id>5G6D4TtJZkkvUasxqtBmW8</id>
+        <title>Migraine - EP</title>
+        <url>https://open.spotify.com/album/5G6D4TtJZkkvUasxqtBmW8</url>
+      </Album>
+      <Album>
+        <id>7a5rVBYhquQp6pq4EHoxMW</id>
+        <title>Absolute Summer Hits 2015</title>
+        <url>https://open.spotify.com/album/7a5rVBYhquQp6pq4EHoxMW</url>
+      </Album>
+    </albums>
+  </Artist>
+</ArrayOfArtist>
