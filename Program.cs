@@ -22,6 +22,7 @@ namespace SpotifyConsoleApp
         public static List<Artist> artists;
         static void Main(string[] args)
         {
+            ShowGreeting();
             if (args == null || args.Length == 0)
                 AskArtist();
             else
@@ -34,7 +35,9 @@ namespace SpotifyConsoleApp
         }
         public static void ShowGreeting() 
         {
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Welcome to Spotify Console Command!");
+            Console.ResetColor();
         }
         public static void AskArtist()
         {
@@ -46,8 +49,10 @@ namespace SpotifyConsoleApp
 
         public static void SearchArtist(string artist)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             ClearArtist();
             Console.WriteLine("Searching for " + artist);
+            Console.ResetColor();
             string url;
             url = "https://api.spotify.com/v1/search?q=" + artist + "&type=artist";
             var dyn = MakeRequest(url);
@@ -97,7 +102,7 @@ namespace SpotifyConsoleApp
 
         public static void ShowResults()
         {
-
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Found " + artists.Count + " Results");
             int i = 1;
             foreach (var artist in artists)
@@ -106,6 +111,7 @@ namespace SpotifyConsoleApp
                 Console.Write(artist.ToString());
                 i++;
             }
+            Console.ResetColor();
             Console.WriteLine("\nWould you like to play any of these artists?");
             string answer = Console.ReadLine();
             answer = answer.ToLower();
@@ -183,6 +189,7 @@ namespace SpotifyConsoleApp
 
         public static void ShowTopSongs(Artist artist) 
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             int i = 1;
             foreach (var song in artist.topSongs) 
             {
@@ -191,6 +198,7 @@ namespace SpotifyConsoleApp
             }
 
             Console.WriteLine("#0. Exit");
+            Console.ResetColor();
             Console.WriteLine("What would you like to do?");
             string answer = Console.ReadLine();
             int num = 0;
@@ -224,11 +232,13 @@ namespace SpotifyConsoleApp
         public static void ShowAlbums(Artist artist) 
         {
             int i = 1;
+            Console.ForegroundColor = ConsoleColor.Green;
             foreach (var album in artist.albums) 
             {
                 Console.WriteLine("#"+ i + " " + album.title);
                 i++;
             }
+            Console.ResetColor();
             Console.WriteLine("\nWhat album would you like to browse?");
             string albumNo = Console.ReadLine();
             int num = 0;
@@ -266,6 +276,7 @@ namespace SpotifyConsoleApp
         public static void ShowSongs(Album album) 
         {
             int i = 1;
+            Console.ForegroundColor = ConsoleColor.Green;
             foreach (var song in album.songs) 
             {
                 Console.WriteLine("#" + i + " " + song.title);
@@ -273,6 +284,7 @@ namespace SpotifyConsoleApp
             }
             Console.WriteLine("#" + i + "Play Album.");
             Console.WriteLine("#0 Exit");
+            Console.ResetColor();
             Console.WriteLine("What would you like to do?");
            string answer =  Console.ReadLine();
            int num = 0;
