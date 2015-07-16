@@ -23,7 +23,6 @@ namespace SpotifyConsoleApp
             StreamReader read;
             XmlSerializer serializer;
             XmlReader reader;
-            //read. initialize variables.
             if (File.Exists(@"./songs.xml"))
             {
                  read = new StreamReader(@"./songs.xml");
@@ -31,7 +30,8 @@ namespace SpotifyConsoleApp
                  reader = XmlReader.Create(read);
                 lastSongsPlayed = (List<Song>)serializer.Deserialize(reader);
                 read.Close();
-            }else
+            }
+            else
                 lastSongsPlayed = new List<Song>();
 
             if (File.Exists(@"./albums.xml"))
@@ -61,6 +61,7 @@ namespace SpotifyConsoleApp
         {
             lastArtistPlayed.Add(artist);
         }
+
         public void AddSong(Song song) 
         {
             lastSongsPlayed.Add(song);

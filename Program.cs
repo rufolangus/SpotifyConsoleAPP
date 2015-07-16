@@ -20,8 +20,10 @@ namespace SpotifyConsoleApp
 {
     class SpotifyConsole
     {
+
         public static List<Artist> artists;
         private static History history;
+
         static void Main(string[] args)
         {
             ShowGreeting();
@@ -35,6 +37,7 @@ namespace SpotifyConsoleApp
                 SearchArtist(artist);
             }
         }
+
         public static void ShowGreeting() 
         {
             history = new History();
@@ -42,6 +45,7 @@ namespace SpotifyConsoleApp
             Console.WriteLine("Welcome to Spotify Console Command!");
             Console.ResetColor();
         }
+
         public static void AskArtist()
         {
             Console.WriteLine("Enter artist name to search spotify: ");
@@ -114,10 +118,12 @@ namespace SpotifyConsoleApp
                 Console.Write(artist.ToString());
                 i++;
             }
+
             Console.ResetColor();
             Console.WriteLine("\nWould you like to play any of these artists?");
             string answer = Console.ReadLine();
             answer = answer.ToLower();
+
             if (answer.Equals("yes") || answer.Equals("y"))
             {
                 Console.WriteLine("\nEnter artist number: ");
@@ -128,10 +134,8 @@ namespace SpotifyConsoleApp
                 {
                     var artist = artists[number - 1];
                     history.AddArtist(artist);
-                    //Get Artist Top Tracks.
                     Console.WriteLine("\nWhat would you like to do?");
                     Console.WriteLine("0. Play Artist");
-            //        Console.WriteLine("1. View Most Played Songs");
                     Console.WriteLine("1. Browse Albums.");
                     Console.WriteLine("2. Search Again.");
                     var ansr = Console.ReadLine();
@@ -158,9 +162,7 @@ namespace SpotifyConsoleApp
                         case 3:
                             Console.WriteLine("Goodbye.");
                             break;
-                            
                     }
-
                 }
             }
             else
@@ -174,6 +176,7 @@ namespace SpotifyConsoleApp
             }
 
         }
+
         public static void GetTopSongInfo(Artist artist, dynamic dyn) 
         {
             if (artist.topSongs == null)
@@ -311,6 +314,7 @@ namespace SpotifyConsoleApp
             
         }
     }
+
     [Serializable]
     public class Artist
     {
@@ -325,6 +329,7 @@ namespace SpotifyConsoleApp
             return "Artist Name: " + name + "\n" + "ID: " + id + "\n" + "URL: " + url + "\n";
         }
     }
+
     [Serializable]
     public class Album
     {
@@ -333,6 +338,7 @@ namespace SpotifyConsoleApp
         public string url;
         public  List<Song> songs;
     }
+
     [Serializable]
     public class Song
     {
