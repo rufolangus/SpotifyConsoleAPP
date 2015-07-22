@@ -14,6 +14,10 @@ namespace SpotifyConsoleApp
         private List<Song> lastSongsPlayed;
         private List<Album> lastAlbumPlayed;
         private List<Artist> lastArtistPlayed;
+        public List<Artist> LastArtistsPLayed { get { return lastArtistPlayed; } }
+        public List<Song> LastSongsPLayed { get { return lastSongsPlayed; } }
+        public List<Album> LastAlbumspLayed { get { return lastAlbumPlayed; } }
+
         ~History() 
         {
             Save();
