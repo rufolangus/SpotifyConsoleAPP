@@ -4,6 +4,7 @@
     <name>Twenty One Pilots</name>
     <id>3YQKmKGau1PzlVlkL1iodx</id>
     <url>https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx</url>
+    <topSongs />
     <albums>
       <Album>
         <id>3cQO7jp5S9qLBoIVtbkSM1</id>
@@ -86,82 +87,105 @@
         <id>3kAeFRFteZe70K20xjC6Rm</id>
         <title>quiet is viølent ep</title>
         <url>https://open.spotify.com/album/3kAeFRFteZe70K20xjC6Rm</url>
+        <songs />
       </Album>
       <Album>
         <id>4RTM2aJ9TN4xhk3Qy1DhTV</id>
         <title>Spotify Sessions</title>
         <url>https://open.spotify.com/album/4RTM2aJ9TN4xhk3Qy1DhTV</url>
+        <songs />
       </Album>
       <Album>
         <id>14onjcwGXJFQnTmmCnTUfQ</id>
         <title>Vessel (Bonus Tracks Version)</title>
         <url>https://open.spotify.com/album/14onjcwGXJFQnTmmCnTUfQ</url>
+        <songs />
       </Album>
       <Album>
         <id>2r2r78NE05YjyHyVbVgqFn</id>
         <title>Vessel</title>
         <url>https://open.spotify.com/album/2r2r78NE05YjyHyVbVgqFn</url>
+        <songs />
       </Album>
       <Album>
         <id>213bMr2NI3VDcBLWpkKFxG</id>
         <title>Vessel [Commentary Version]</title>
         <url>https://open.spotify.com/album/213bMr2NI3VDcBLWpkKFxG</url>
+        <songs />
       </Album>
       <Album>
         <id>1Fexc96V24RL17Ko9VXUOM</id>
         <title>Twenty One Pilots</title>
         <url>https://open.spotify.com/album/1Fexc96V24RL17Ko9VXUOM</url>
+        <songs />
       </Album>
       <Album>
         <id>7L5AQ3eJDFyCaUODlzUWFT</id>
         <title>Ride</title>
         <url>https://open.spotify.com/album/7L5AQ3eJDFyCaUODlzUWFT</url>
+        <songs />
       </Album>
       <Album>
         <id>6uLhtZmD6n1IWHGddvFPea</id>
         <title>Lane Boy</title>
         <url>https://open.spotify.com/album/6uLhtZmD6n1IWHGddvFPea</url>
+        <songs />
       </Album>
       <Album>
         <id>0UpWCxnFOyZaIadPN8dGC6</id>
         <title>Stressed Out</title>
         <url>https://open.spotify.com/album/0UpWCxnFOyZaIadPN8dGC6</url>
+        <songs />
       </Album>
       <Album>
         <id>3gtdiyOmi78JgZLHkcl1fd</id>
         <title>Tear In My Heart</title>
         <url>https://open.spotify.com/album/3gtdiyOmi78JgZLHkcl1fd</url>
+        <songs />
       </Album>
       <Album>
         <id>2uOH7ZapMI7w54BIXLEdfJ</id>
         <title>Fairly Local</title>
         <url>https://open.spotify.com/album/2uOH7ZapMI7w54BIXLEdfJ</url>
+        <songs />
       </Album>
       <Album>
         <id>0PNfVonzTdd4i5qH06HleQ</id>
         <title>Holding On To You EP</title>
         <url>https://open.spotify.com/album/0PNfVonzTdd4i5qH06HleQ</url>
+        <songs />
       </Album>
       <Album>
         <id>5V6mSpd03S0oXpgETNNJBU</id>
         <title>Holding On To You</title>
         <url>https://open.spotify.com/album/5V6mSpd03S0oXpgETNNJBU</url>
+        <songs />
       </Album>
       <Album>
         <id>7MnEKSFLhUPQKACs4MHMsI</id>
         <title>three songs</title>
         <url>https://open.spotify.com/album/7MnEKSFLhUPQKACs4MHMsI</url>
+        <songs />
       </Album>
       <Album>
         <id>5G6D4TtJZkkvUasxqtBmW8</id>
         <title>Migraine - EP</title>
         <url>https://open.spotify.com/album/5G6D4TtJZkkvUasxqtBmW8</url>
+        <songs />
       </Album>
       <Album>
         <id>7a5rVBYhquQp6pq4EHoxMW</id>
         <title>Absolute Summer Hits 2015</title>
         <url>https://open.spotify.com/album/7a5rVBYhquQp6pq4EHoxMW</url>
+        <songs />
       </Album>
     </albums>
+  </Artist>
+  <Artist>
+    <name>Twenty One Pilots</name>
+    <id>3YQKmKGau1PzlVlkL1iodx</id>
+    <url>https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx</url>
+    <topSongs />
+    <albums />
   </Artist>
 </ArrayOfArtist>
